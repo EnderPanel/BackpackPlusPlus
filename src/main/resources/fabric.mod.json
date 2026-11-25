@@ -7,7 +7,7 @@
 	"authors": [
 		"backpackplusplus"
 	],
-	"license": "MIT",
+	"license": "LGPL-3.0-only",
 	"icon": "assets/backpackplusplus/icon.png",
 	"environment": "*",
 	"entrypoints": {
