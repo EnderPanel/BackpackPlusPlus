@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": "minecraft:golden_apple",
+    "R": "minecraft:redstone",
+    "B": "minecraft:bowl",
+    "L": "minecraft:leather"
+  },
+  "pattern": [
+    " R ",
+    "LAL",
+    " B "
+  ],
+  "result": {
+    "id": "backpackplusplus:feeding_upgrade"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "backpackplusplus:leather_backpack",
+    "backpackplusplus:iron_backpack",
+    "backpackplusplus:gold_backpack",
+    "backpackplusplus:diamond_backpack",
+    "backpackplusplus:netherite_backpack"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_dye",
+  "dye": "#minecraft:dyes",
+  "group": "dyed_backpack",
+  "result": {
+    "id": "backpackplusplus:iron_backpack"
+  },
+  "target": "backpackplusplus:iron_backpack"
+}

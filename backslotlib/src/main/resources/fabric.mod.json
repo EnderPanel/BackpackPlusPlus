@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "backslotlib",
+	"version": "${version}",
+	"name": "BackSlot Lib",
+	"description": "Lightweight library mod adding a dedicated wearable Back Slot to the player inventory and rendering pipeline.",
+	"authors": [
+		"BackSlotLib"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.backslotlib.BackSlotLib"
+		],
+		"client": [
+			"com.backslotlib.client.BackSlotLibClient"
+		]
+	},
+	"mixins": [
+		"backslotlib.mixins.json",
+		{
+			"config": "backslotlib.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

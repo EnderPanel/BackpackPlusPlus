@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "T": "minecraft:crafting_table",
+    "I": "minecraft:iron_ingot",
+    "L": "minecraft:leather"
+  },
+  "pattern": [
+    " I ",
+    "LTL",
+    " I "
+  ],
+  "result": {
+    "id": "backpackplusplus:crafting_upgrade"
+  }
+}

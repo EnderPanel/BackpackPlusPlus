@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "backpackplusplus:item/pickup_upgrade"
+  }
+}

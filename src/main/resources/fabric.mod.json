@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "backpackplusplus",
+	"version": "${version}",
+	"name": "Backpack++",
+	"description": "Tiered, dyeable, wearable backpacks with upgrades, 3D back rendering, and keybind access.",
+	"authors": [
+		"backpackplusplus"
+	],
+	"license": "MIT",
+	"icon": "assets/backpackplusplus/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.backpackplusplus.BackpackMod"
+		],
+		"client": [
+			"com.backpackplusplus.client.BackpackModClient"
+		]
+	},
+	"mixins": [
+		"backpackplusplus.mixins.json",
+		{
+			"config": "backpackplusplus.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"backslotlib": "*"
+	}
+}

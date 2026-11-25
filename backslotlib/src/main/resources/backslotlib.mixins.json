@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"package": "com.backslotlib.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"InventoryMenuMixin",
+		"InventoryMixin",
+		"PlayerMixin",
+		"ServerGamePacketListenerImplMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
